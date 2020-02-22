@@ -254,6 +254,28 @@ header nav a {
 
 /* applying some css style to About page */
 
+/* apply 10px margin to top and buttom oa lla images */
+img{ 
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+/*aplly  display flex to make chaneges easly on boxes   */
+
+.big-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.small-container {
+    width: 48%;
+    padding: 10px;
+    justify-content: space-between;
+    
+}
+button{
+    background-origin: padding-box;
+}
+
 footer {
     width: 100%;
     background: black;
